@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.card {
+  border: none;
+  background-color: beige;
+  max-width: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.267);
+  margin: 10px;
+  display: inline-block;
+}
+
+.card .card-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card .card-title {
+  color: transparent;
+  background: linear-gradient(to right, indigo, violet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card .card-text {
+  margin-top: 5px;
+  font-style: italic;
+}

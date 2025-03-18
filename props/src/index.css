@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.props {
+  border: 2px solid crimson;
+  max-width: 150px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.props p {
+  padding: 5px;
+  text-align: center;
+}
