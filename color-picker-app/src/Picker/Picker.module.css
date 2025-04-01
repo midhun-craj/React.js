@@ -1,0 +1,46 @@
+.color-picker-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 4.5rem;
+}
+
+.color-display {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.color-name {
+    position: absolute;
+    background: transparent;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.color-input {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+/* .color-input>input[type="color"] {
+    padding: 40px 40px; 
+    border-radius: 10px;
+    border: none;
+} */
