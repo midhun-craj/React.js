@@ -4,6 +4,7 @@ import Resize from './MyComponent/Resize.jsx';
 export default function App() {
   return(
     <>
+      {/* <Component /> */}
       <Resize />
     </>
   );
