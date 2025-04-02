@@ -1,0 +1,36 @@
+body, html {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.clock-container>video {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.clock {
+    margin-top: -75px;
+    font-size: clamp(5rem, 8vw, 10rem);
+    z-index: 2;
+    position: relative;
+    backdrop-filter: blur(15px);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px black;
+    border-style: dashed;
+}
