@@ -1,0 +1,76 @@
+html, body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type = "text"] {
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    min-width: 200px;
+}
+
+.input-container > button {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.list-container {
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    max-width: 400px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    margin-left: 15px;
+    font-size: 1rem;
+}
+
+.list-container > li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: black;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.list-container > li > button {
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.text {
+    flex: 1;
+}
