@@ -1,0 +1,10 @@
+body {
+  font-family: monospace;
+}
+
+.box {
+  border: 2px dotted black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
